@@ -1,0 +1,11 @@
+Server [localhost]: [enter]
+Database [postgres]: [enter]
+Port [5432]: [enter]
+Username [postgres]: [enter]
+Contraseña para usuario postgres: 123
+
+CREATE DATABASE falabella;
+
+\l
+
+SELECT id, name, email, password FROM public."User";
