@@ -15,3 +15,9 @@ model Tareas {
   titulo      String
   descripcion String?
 }
+
+model Tiendas {
+  id          Int     @id @default(autoincrement())
+  nombre      String
+  descripcion String?
+}
